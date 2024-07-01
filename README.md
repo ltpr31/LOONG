@@ -18,18 +18,19 @@ Command:
 
 Parameters:
 
---rootPath: the path saving "position.txt" and "tissue.png", and output folder is to be created here. (Required)
---bgImg_height/width: scaled size of tissue image fitting coordinates of spots. (Not required)
---outTxtName: the file to save ALBST values. (Required)
---txtName: the file saving coordinates of spots. (Required)
---row_std: ALBST will be scaled to 0 to this value. (Not required)
---col_std: Width will be scaled to 0 to this value. If --col_std is not set, Width will be scaled equally with ALBST. (Not required)
+--rootPath: the path saving "position.txt" and "tissue.png", and output folder is to be created here. (Required) \
+--bgImg_height/width: scaled size of tissue image fitting coordinates of spots. (Not required) \
+--outTxtName: the file to save ALBST values. (Required) \
+--txtName: the file saving coordinates of spots. (Required) \
+--row_std: ALBST will be scaled to 0 to this value. (Not required) \
+--col_std: Width will be scaled to 0 to this value. If --col_std is not set, Width will be scaled equally with ALBST. (Not required) \
 
 Operations:
 
-right-click: draw polygons to select spots involved in ALBST. (Not required)
-P key press: draw next polygons. (Not required)
-middle-click: save selected spots in polygons. (Not required)
-left-click: draw the auxiliary line. (Required)
-left double-click: undo all actions. (Not required)
-S key press: calculate and save ALBST values. (Required)
+right-click: draw polygons to select spots involved in ALBST. (Not required) \
+P key press: draw next polygons. (Not required) \
+middle-click: save selected spots in polygons. (Not required) \
+R key press: hide unselected spots. (Not required) \
+left-click: draw the auxiliary line. (Required) \
+left double-click: undo all actions. (Not required) \
+S key press: calculate and save ALBST values. (Required) \
