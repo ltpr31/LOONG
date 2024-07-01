@@ -23,7 +23,7 @@ Parameters:
 --outTxtName: the file to save ALBST values. (Required) \
 --txtName: the file saving coordinates of spots. (Required) \
 --row_std: ALBST will be scaled to 0 to this value. (Not required) \
---col_std: Width will be scaled to 0 to this value. If --col_std is not set, Width will be scaled equally with ALBST. (Not required) \
+--col_std: Width will be scaled to 0 to this value. If --col_std is not set, Width will be scaled equally with ALBST. (Not required)
 
 Operations:
 
@@ -33,4 +33,4 @@ middle-click: save selected spots in polygons. (Not required) \
 R key press: hide unselected spots. (Not required) \
 left-click: draw the auxiliary line. (Required) \
 left double-click: undo all actions. (Not required) \
-S key press: calculate and save ALBST values. (Required) \
+S key press: calculate and save ALBST values. (Required)
