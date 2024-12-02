@@ -2,7 +2,10 @@ Authors：Xianyu Zhang, Yong Zhang.
 
 LOONG is a software to construct auxiliary line based spatial trajectory (ALBST), which faithfully displays spatial relationships of spots along an auxiliary line.
 
-note: LOONG fits Ubuntu 20.04.
+Installation:
+
+sudo dpkg -i /path/to/LOONG_V1.0.deb
+(note: LOONG fits Ubuntu 20.04.)
 
 Function:
 
